@@ -10,7 +10,7 @@ C:\
 
         Folder_2_2
 
-            File_2_2_1.txt
+            File_2_2_1.txt / htm / html / py / cs
 
 فرض کنید که در فایل
 File_2_2_1.txt
@@ -18,7 +18,7 @@ File_2_2_1.txt
 File_2_1_1.txt
 را مشخص کنیم
 
-آدرس‌دهی مطلق
+آدرس‌دهی مطلق / فیزیکی
 
 C:\Folder_2\Folder_2_1\File_2_1_1.txt
 در سی‌شارپ و پایتون

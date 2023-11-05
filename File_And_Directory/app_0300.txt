@@ -1,13 +1,33 @@
 C:\Folder_1\MyFile.txt
 
-C:\Folder_1\MyFile.dec.txt
+C:\Folder_1\MyFile.enc.txt
 
 =>
 
-C:\Folder_1\MyFile.txt
+Path: C:\Folder_1\MyFile.txt
 
 C:\Folder_1\    MyFile      .txt
 
-C:\Folder_1\    MyFile      .dec    .txt
+("C:\Folder_1\", "MyFile", ".txt")
 
-C:\Folder_1\MyFile.dec.txt
+C:\Folder_1\    MyFile      .enc    .txt
+
+C:\Folder_1\MyFile.enc.txt
+
+# Main Guard:
+
+# ************
+# Solution (1)
+# ************
+Print("Hello, World!")
+# ************
+
+# ************
+# Solution (2)
+# ************
+def main():
+    Print("Hello, World!")    
+
+if __name__ == "main":
+    main()
+# ************

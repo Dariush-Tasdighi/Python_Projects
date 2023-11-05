@@ -17,6 +17,7 @@ def get_path_parts(path: str):
         return None
 
     location, tail = os.path.split(p=path)
+    # (location, tail) = os.path.split(p=path)
 
     items = os.path.splitext(p=tail)
 
@@ -28,7 +29,7 @@ def get_path_parts(path: str):
     return parts
 
 
-def test_get_path_parts():
+def test_of_get_path_parts():
     """Test of Get Path Parts Function."""
 
     path = None
@@ -96,9 +97,12 @@ def test_get_path_parts():
         print(f"[!] Path Parsing Error! - '{path}'")
 
 
+# test_of_get_path_parts()
+
+
 def main():
     """Main Function."""
-    test_get_path_parts()
+    test_of_get_path_parts()
 
 
 if __name__ == "main":
