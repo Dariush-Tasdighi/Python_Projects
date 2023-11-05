@@ -1,46 +1,43 @@
+"""Application 200"""
+
 import os
+
+os.system(command="cls")
 
 print("OS Name:", os.name)
 print("Current Working Directory:", os.getcwd())
 
 print()
 
-path = "C:\\Windows"
-print(f"{path} exists:", os.path.exists(path=path))
+PATH = "C:\\Windows"
+print(f"{PATH} exists:", os.path.exists(path=PATH))
 
-path_name = "C:\\Windows\\notepad.exe"
-print(f"{path_name} exists:", os.path.exists(path=path_name))
-
-print()
-
-path = "C:\\alaki"
-print(f"{path} exists:", os.path.exists(path=path))
-
-path_name = "C:\\Windows\\alaki.exe"
-print(f"{path_name} exists:", os.path.exists(path=path_name))
+PATH = "C:\\Windows\\notepad.exe"
+print(f"{PATH} exists:", os.path.exists(path=PATH))
 
 print()
 
-path = "C:\\Windows"
-if os.path.exists(path=path):
-    print(f"{path} is File:", os.path.isfile(path=path))
-    print(f"{path} is Directory:", os.path.isdir(s=path))
+PATH = "C:\\some_folder"
+print(f"{PATH} exists:", os.path.exists(path=PATH))
 
-path_name = "C:\\Windows\\notepad.exe"
-if os.path.exists(path=path_name):
-    print(f"{path_name} is File:", os.path.isfile(path=path_name))
-    print(f"{path_name} is Directory:", os.path.isdir(s=path_name))
+PATH = "C:\\Windows\\some_file.exe"
+print(f"{PATH} exists:", os.path.exists(path=PATH))
 
 print()
 
-path = "C:\\Windows"
-if os.path.exists(path=path):
-    print(f"{path} is File:", os.path.isfile(path=path))
-    print(f"{path} is Directory:", os.path.isdir(s=path))
+# معمولا ابتدا تست می‌کنیم که مسیر اعلام شده وجود دارد یا خیر
+# و سپس بررسی می‌کنیم که این مسیر مربوط به فایل است یا پوشه؟
 
-path_name = "C:\\Windows\\notepad.exe"
-if os.path.exists(path=path_name):
-    print(f"{path_name} is File:", os.path.isfile(path=path_name))
-    print(f"{path_name} is Directory:", os.path.isdir(s=path_name))
+PATH = "C:\\Windows"
+if os.path.exists(path=PATH):
+    print(f"{PATH} is File:", os.path.isfile(path=PATH))
+    print(f"{PATH} is Directory:", os.path.isdir(s=PATH))
+
+print()
+
+PATH = "C:\\Windows\\notepad.exe"
+if os.path.exists(path=PATH):
+    print(f"{PATH} is File:", os.path.isfile(path=PATH))
+    print(f"{PATH} is Directory:", os.path.isdir(s=PATH))
 
 print()

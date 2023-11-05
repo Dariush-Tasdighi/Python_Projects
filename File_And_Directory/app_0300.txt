@@ -1,0 +1,13 @@
+C:\Folder_1\MyFile.txt
+
+C:\Folder_1\MyFile.dec.txt
+
+=>
+
+C:\Folder_1\MyFile.txt
+
+C:\Folder_1\    MyFile      .txt
+
+C:\Folder_1\    MyFile      .dec    .txt
+
+C:\Folder_1\MyFile.dec.txt

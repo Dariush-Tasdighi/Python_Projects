@@ -1,0 +1,37 @@
+C:\
+
+    Folder_1
+
+    Folder_2
+
+        Folder_2_1
+
+            File_2_1_1.txt
+
+        Folder_2_2
+
+            File_2_2_1.txt
+
+فرض کنید که در فایل
+File_2_2_1.txt
+هستیم، و می‌خواهیم آدرس فایل
+File_2_1_1.txt
+را مشخص کنیم
+
+آدرس‌دهی مطلق
+
+C:\Folder_2\Folder_2_1\File_2_1_1.txt
+در سی‌شارپ و پایتون
+C:\\Folder_2\\Folder_2_1\\File_2_1_1.txt
+
+در ویندوز
+alaki\dolaki
+C:\...
+
+در مک او اس / لینوکس
+alaki/dolaki
+/
+
+آدرس‌دهی نسبی
+
+..\Folder_2_1\File_2_1_1.txt
