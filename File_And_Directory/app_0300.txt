@@ -4,13 +4,15 @@ C:\Folder_1\MyFile.enc.txt
 
 =>
 
-Path: C:\Folder_1\MyFile.txt
+Path = "C:\Folder_1\MyFile.txt"
 
-C:\Folder_1\    MyFile      .txt
+"C:\Folder_1"    "MyFile"      ".txt"
 
-("C:\Folder_1\", "MyFile", ".txt")
+("C:\Folder_1", "MyFile", ".txt")
 
-C:\Folder_1\    MyFile      .enc    .txt
+"C:\Folder_1"    "MyFile"      ".enc"    ".txt"
+
+=>
 
 C:\Folder_1\MyFile.enc.txt
 
@@ -26,7 +28,7 @@ Print("Hello, World!")
 # Solution (2)
 # ************
 def main():
-    Print("Hello, World!")    
+    Print("Hello, World!")
 
 if __name__ == "main":
     main()
