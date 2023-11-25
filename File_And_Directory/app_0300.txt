@@ -16,7 +16,9 @@ Path = "C:\Folder_1\MyFile.txt"
 
 C:\Folder_1\MyFile.enc.txt
 
-# Main Guard:
+# ************
+# Main Guard
+# ************
 
 # ************
 # Solution (1)

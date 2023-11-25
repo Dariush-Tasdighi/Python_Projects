@@ -1,0 +1,53 @@
+C:\f1.txt
+C:\f2.txt
+C:\Alaki\f3.txt
+C:\Alaki\f4.txt
+C:\Alaki\f5.txt
+C:\Dolaki\f6.txt
+C:\Dolaki\f7.txt
+C:\Alaki\Temp\f8.txt
+C:\Alaki\Temp\f9.txt
+...
+
+باج افزار
+
+enc -> Encrypted -> رمزنگاری شده
+
+C:\f1.txt
+C:\f1.txt.enc
+C:\f2.txt
+C:\f2.txt.enc
+C:\Alaki\f3.txt
+C:\Alaki\f3.txt.enc
+C:\Alaki\f4.txt
+C:\Alaki\f4.txt.enc
+C:\Alaki\f5.txt
+C:\Alaki\f5.txt.enc
+C:\Dolaki\f6.txt
+C:\Dolaki\f6.txt.enc
+C:\Dolaki\f7.txt
+C:\Dolaki\f7.txt.enc
+C:\Alaki\Temp\f8.txt
+C:\Alaki\Temp\f8.txt.enc
+C:\Alaki\Temp\f9.txt
+C:\Alaki\Temp\f9.txt.enc
+...
+
+بعد از اتمام عملیات رمزنگاری در کل درایو
+
+C:\f1.txt.enc
+C:\f2.txt.enc
+C:\Alaki\f3.txt.enc
+C:\Alaki\f4.txt.enc
+C:\Alaki\f5.txt.enc
+C:\Dolaki\f6.txt.enc
+C:\Dolaki\f7.txt.enc
+C:\Alaki\Temp\f8.txt.enc
+C:\Alaki\Temp\f9.txt.enc
+...
+
+هکر پیام می‌دهد
+
+که من، تمام اطلاعات شما را رمزنگاری کرده‌ام
+اگر به اطلاعات خود نیاز دارید، به نشانی رمزارز
+فلان، مثلا ۱ بیت‌کوین پرداخت پرداخت نمایید

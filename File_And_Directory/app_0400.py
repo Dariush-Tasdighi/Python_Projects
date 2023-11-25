@@ -4,14 +4,42 @@ import os
 
 os.system(command="cls")
 
-PATH = "MyFolder"
 
-files_list = []
+def get_files(path: str):
+    """Get Files Function."""
 
-for path, folders, files in os.walk(top=PATH):
-    file_paths = [os.path.join(path, file) for file in files]
+    items = []
 
-    files_list.extend(file_paths)
+    if not os.path.exists(path=path):
+        return items
 
-for file in files_list:
-    print(file)
+    if os.path.isfile(path=path):
+        items.append(path)
+        return items
+
+    file_items = os.listdir(path=path)
+    for file_item in file_items:
+        path_name = os.path.join(path, file_item)
+        if os.path.isfile(path=path_name):
+            items.append(path_name)
+
+    return items
+
+
+def main():
+    """Main Function."""
+    path = input("Path: ")
+
+    file_path_items = get_files(path=path)
+
+    for file_path in file_path_items:
+        print(f"File Path: {file_path}")
+
+        with open(file=file_path, mode="rt", encoding="utf-8") as file:
+            file_content = file.read()
+            print(file_content)
+            print("*" * 10)
+
+
+if __name__ == "__main__":
+    main()
