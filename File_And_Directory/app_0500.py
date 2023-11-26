@@ -8,32 +8,32 @@ os.system(command="cls")
 def get_all_files(path: str):
     """Get All Files Function."""
 
-    items = []
+    file_items = []
 
     if path is None:
-        return items
+        return file_items
 
     path = path.strip()
 
     if path == "":
-        return items
+        return file_items
 
     if not os.path.exists(path=path):
-        return items
+        return file_items
 
     if os.path.isfile(path=path):
-        items.append(path)
-        return items
+        file_items.append(path)
+        return file_items
 
     for path, _, files in os.walk(top=path):
-        file_path_items = [os.path.join(path, file) for file in files]
-        items.extend(file_path_items)
+        path_items = [os.path.join(path, file) for file in files]
+        file_items.extend(path_items)
 
     # for path, folders, files in os.walk(top=path):
-    #     file_path_items = [os.path.join(path, file) for file in files]
-    #     items.extend(file_path_items)
+    #     path_items = [os.path.join(path, file) for file in files]
+    #     file_items.extend(path_items)
 
-    return items
+    return file_items
 
 
 def main():
@@ -41,10 +41,10 @@ def main():
 
     path = input("Path: ")
 
-    file_path_items = get_all_files(path=path)
+    file_items = get_all_files(path=path)
 
-    for file_path_item in file_path_items:
-        print(f"File Path: {file_path_item}")
+    for file_item in file_items:
+        print(f"File Path: {file_item}")
 
 
 if __name__ == "__main__":

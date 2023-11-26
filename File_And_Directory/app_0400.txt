@@ -1,20 +1,19 @@
 path: my_folder
 
-[file_items]
 f_1
 f_2
 file_1.txt
 file_2.txt
 file_3.txt
 
-[path_name]
 my_folder\f_1
 my_folder\f_2
 my_folder\file_1.txt
 my_folder\file_2.txt
 my_folder\file_3.txt
 
-[items]
+Just:
+
 my_folder\file_1.txt
 my_folder\file_2.txt
 my_folder\file_3.txt

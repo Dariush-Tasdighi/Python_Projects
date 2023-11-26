@@ -8,31 +8,31 @@ os.system(command="cls")
 def get_files(path: str):
     """Get Files Function."""
 
-    items = []
+    file_items = []
 
     if path is None:
-        return items
+        return file_items
 
     path = path.strip()
 
     if path == "":
-        return items
+        return file_items
 
     if not os.path.exists(path=path):
-        return items
+        return file_items
 
     if os.path.isfile(path=path):
-        items.append(path)
-        return items
+        file_items.append(path)
+        return file_items
 
-    file_items = os.listdir(path=path)
+    items = os.listdir(path=path)
 
-    for file_item in file_items:
-        path_name = os.path.join(path, file_item)
-        if os.path.isfile(path=path_name):
-            items.append(path_name)
+    for item in items:
+        path_item = os.path.join(path, item)
+        if os.path.isfile(path=path_item):
+            file_items.append(path_item)
 
-    return items
+    return file_items
 
 
 def main():
@@ -40,12 +40,12 @@ def main():
 
     path = input("Path: ")
 
-    file_path_items = get_files(path=path)
+    file_items = get_files(path=path)
 
-    for file_path_item in file_path_items:
-        print(f"File Path: {file_path_item}")
+    for file_item in file_items:
+        print(f"File Path: {file_item}")
 
-        with open(file=file_path_item, mode="rt", encoding="utf-8") as file:
+        with open(file=file_item, mode="rt", encoding="utf-8") as file:
             file_content = file.read()
             print(file_content)
             print("*" * 10)
