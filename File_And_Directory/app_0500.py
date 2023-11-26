@@ -25,13 +25,13 @@ def get_all_files(path: str):
         items.append(path)
         return items
 
-    # for path, folders, files in os.walk(top=path):
-    #     file_paths = [os.path.join(path, file) for file in files]
-    #     items.extend(file_paths)
-
     for path, _, files in os.walk(top=path):
-        file_paths = [os.path.join(path, file) for file in files]
-        items.extend(file_paths)
+        file_path_items = [os.path.join(path, file) for file in files]
+        items.extend(file_path_items)
+
+    # for path, folders, files in os.walk(top=path):
+    #     file_path_items = [os.path.join(path, file) for file in files]
+    #     items.extend(file_path_items)
 
     return items
 
