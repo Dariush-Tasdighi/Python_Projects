@@ -1,0 +1,54 @@
+سه تا مفهوم
+
+path (Required)
+-d --delete
+-r OR --recursive
+
+> python ransomware.py
+
+Error!
+
+> python ransomware.py Temp
+
+File_01.txt
+File_01.txt.enc
+
+File_02.txt
+File_02.txt.enc
+
+> python ransomware.py Temp -r
+> python ransomware.py Temp --recursive
+
+File_01.txt
+File_01.txt.enc
+
+File_02.txt
+File_02.txt.enc
+
+Folder_01\File_03.txt
+Folder_01\File_03.txt.enc
+
+Folder_01\File_04.txt
+Folder_01\File_04.txt.enc
+
+Folder_02\File_05.txt
+Folder_02\File_05.txt.enc
+
+Folder_02\File_06.txt
+Folder_02\File_06.txt.enc
+
+> python ransomware.py Temp -d
+> python ransomware.py Temp --delete
+
+File_01.txt.enc
+File_02.txt.enc
+
+> python ransomware.py Temp -r -d
+> python ransomware.py Temp --recursive --delete
+
+File_01.txt.enc
+File_02.txt.enc
+Folder_01\File_03.txt.enc
+Folder_01\File_04.txt.enc
+Folder_02\File_05.txt.enc
+Folder_02\File_06.txt.enc

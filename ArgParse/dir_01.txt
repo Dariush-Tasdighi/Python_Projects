@@ -1,0 +1,56 @@
+سه تا مفهوم
+
+path (Required)
+-e OR --echo
+-r OR --recursive
+
+> python dir.py
+
+Error!
+
+> python dir.py Temp
+
+File_01.txt
+File_02.txt
+
+> python dir.py Temp -r
+> python dir.py Temp --recursive
+
+File_01.txt
+File_02.txt
+Folder_01\File_03.txt
+Folder_01\File_04.txt
+Folder_02\File_05.txt
+Folder_02\File_06.txt
+
+> python dir.py Temp -e
+> python dir.py Temp --echo
+
+File_01.txt
+This is File (1)!
+*****************
+File_02.txt
+This is File (2)!
+*****************
+
+> python dir.py Temp -e -r
+> python dir.py Temp --echo --recursive
+
+File_01.txt
+This is File (1)!
+*****************
+File_02.txt
+This is File (2)!
+*****************
+Folder_01\File_03.txt
+This is File (3)!
+*****************
+Folder_01\File_04.txt
+This is File (4)!
+*****************
+Folder_02\File_05.txt
+This is File (3)!
+*****************
+Folder_02\File_05.txt
+This is File (4)!
+*****************
