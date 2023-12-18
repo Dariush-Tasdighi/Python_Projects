@@ -1,0 +1,11 @@
+تمرین
+
+gethash.py
+gethash c:\Windows -md5
+gethash c:\Windows -sha1
+gethash c:\Windows -sha256
+gethash c:\Windows -md5 -sha1
+gethash c:\Windows -md5 -sha1 -sha256
+
+1) 'c:\Windows' is required!
+2) -md5 and -sha1 and -sha256 are switches

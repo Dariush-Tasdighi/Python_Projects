@@ -1,0 +1,6 @@
+PowerShell Commands:
+
+Get-FileHash -Path Test.txt -Algorithm MD5
+Get-FileHash -Path Test.txt -Algorithm SHA1
+Get-FileHash -Path Test.txt -Algorithm SHA256
+Get-FileHash -Path Test.txt -Algorithm SHA512
