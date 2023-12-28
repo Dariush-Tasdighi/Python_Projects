@@ -1,6 +1,7 @@
 """Learning Hash (File)"""
 
 import os
+import sys
 import hashlib
 
 os.system(command="cls")
@@ -76,11 +77,11 @@ def main():
 
     if not os.path.exists(path=file):
         print(f"[!] File '{file}' does not exist!")
-        exit()
+        sys.exit()
 
     if not os.path.isfile(path=file):
         print(f"[!] File '{file}' does not exist!")
-        exit()
+        sys.exit()
 
     md_hashed_password = get_md5(file=file)
     sha1_hashed_password = get_sha1(file=file)
