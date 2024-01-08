@@ -1,0 +1,4 @@
+فرق بین دو دستور ذیل در چیست؟
+
+from pynput import keyboard
+from pynput.keyboard import Listener

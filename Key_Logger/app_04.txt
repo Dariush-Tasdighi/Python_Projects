@@ -1,0 +1,22 @@
+PyInstaller:
+https://pypi.org/project/pyinstaller
+https://pyinstaller.org/en/stable
+https://github.com/pyinstaller/pyinstaller
+pip install pyinstaller
+
+> pyinstaller.exe
+> pyinstaller.exe app_04.py
+
+-F, --onefile
+    Create a one-file bundled executable.
+
+> pyinstaller.exe -F app_04.py
+
+-w, --windowed, --noconsole
+
+    Windows and Mac OS X: do not provide a console window for standard i/o. On Mac OS this also triggers building a Mac OS .app bundle. On Windows this option is automatically set if the first script is a ‘.pyw’ file. This option is ignored on *NIX systems.
+
+> pyinstaller.exe -F --noconsole app_04.py
+
+Py2Exe:
+http://www.py2exe.org
