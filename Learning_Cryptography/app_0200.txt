@@ -1,0 +1,37 @@
+تبدیل مبناها
+مبنا = Base
+
+10  -> Decimal
+2   -> Binary
+16  -> Hexadecimal
+
+123 (10) = ??? (2) = ??? (16)
+
+مقدمه
+Bit, Byte
+
+1 Bit: 0 or 1
+1 Byte: 8 Bit
+
+سرعت اینترنت
+100 mbs
+100 mBs
+----------
+
+----------
+Base 2 : 0  1
+Base 10: 0  1   2   3   4   5   6   7   8   9
+Base 16: 0  1   2   3   4   5   6   7   8   9   A   B   C   D   E   F
+----------
+
+----------
+Color: RGB
+
+HTML: 34FA2C
+----------
+
+----------
+Online Sites For Base Converter:
+
+https://www.rapidtables.com/convert/number/base-converter.html
+----------
